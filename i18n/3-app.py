@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Basic Flask app """
+"""Basic Flask app that implements i18n and internationalization"""
 
 from flask import Flask, render_template, request
 from flask_babel import Babel
@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 class Config:
-    """Config class for your application"""
+    """Config class for your application, it deals with babel mostly"""
     LANGUAGES = ["en", "fr"]
     BABEL_DEFAULT_LOCALE = "en"
     BABEL_DEFAULT_TIMEZONE = "UTC"
@@ -26,7 +26,7 @@ def get_locale():
 
 @app.route('/', methods=['GET'], strict_slashes=False)
 def home():
-    """the return page for the application"""
+    """Home page for your application"""
     return render_template('3-index.html')
 
 
