@@ -1,2 +1,11 @@
-0x03-Unittests_and_integration_tests
-Unit testing is the process of testing that a particular function returns expected results for different set of inputs. A unit test is supposed to test standard inputs and corner cases. A unit test should only test the logic defined inside the tested function. Most calls to additional functions should be mocked, especially if they make network or database calls.
+# Unittests and Integration Tests
+
+## Resources
+
+### Read or watch:
+
+- [unittest — Unit testing framework](https://intranet.aluswe.com/rltoken/ug8beURP6GPP7yJtQ4I1Jw)
+- [unittest.mock — mock object library](https://intranet.aluswe.com/rltoken/cCjj8L1q_NaYxvFfqFfYPA)
+- [How to mock a readonly property with mock?](https://intranet.aluswe.com/rltoken/y8OnTBcqkL_Rmr2I3peRSQ)
+- [parameterized](https://intranet.aluswe.com/rltoken/Z6XhDNPKVcd7BW6163H0_Q)
+- [Memoization](https://intranet.aluswe.com/rltoken/7xU6wdKJpB8L2S8vtkxpjw)`
